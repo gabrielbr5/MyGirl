@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Para você 💖</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #fff0f5;
+      padding-top: 100px;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    #foto {
+      margin-top: 30px;
+      width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      display: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #mensagem {
+      margin-top: 20px;
+      font-size: 24px;
+      color: #d6336c;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>UMA SURPRESA PRA VC MY PRINCESS!! 💌</h1>
+  <button onclick="mostrarAmor()">Clique aqui!</button>
+
+  <div>
+    <img id="foto" src="foto.jpeg" alt="Foto nossa">
+    <div id="mensagem">Eu te amo my girl ❤️</div>
+  </div>
+
+  <script>
+    function mostrarAmor() {
+      document.getElementById('foto').style.display = 'block';
+      document.getElementById('mensagem').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
